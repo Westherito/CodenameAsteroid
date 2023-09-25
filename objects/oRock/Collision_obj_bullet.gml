@@ -16,6 +16,7 @@ else{
 	instance_destroy();
 }
 
+oGame.points += 50;
 
 
 
