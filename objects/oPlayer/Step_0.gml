@@ -15,7 +15,9 @@ if keyboard_check(vk_right){
 /// Fix the player position
 move_wrap(true, true, 0);
 
-
-
+// Instances the bullet
+if keyboard_check_pressed(vk_space){
+	instance_create_layer(x,y, "Instances", obj_bullet);
+}
 
 
